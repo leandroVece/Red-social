@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Red Social Simple</title>
+    <script type="module" src="/js/app.js" defer></script>
+
+</head>
+
+<body>
+
+    <div class="sidebar">
+        <div class="profile">
+            <img src="https://pandorafms.com/blog/wp-content/uploads/2020/07/que-es-un-desarrollador-featured.jpg"
+                alt="Usuario">
+            <h2 id="nombre-user">Sin nombre</h2>
+            <p id="Subname">Sin chamba</p>
+            <div id="login"></div>
+
+            <!-- Modal -->
+            <div id="modal">
+                <h2>Iniciar sesión</h2>
+                <Form id="form-login">
+                    <input type="text" placeholder="nombre" name="nombre" id="">
+                    <input type="password" placeholder="contraceña" name="password" id="">
+                    <button class="btn" id="guardarUsuario">Login</button>
+                </Form>
+                <button id="cerrarModal" class="btn">Cerrar</button>
+            </div>
+        </div>
+    </div>
+    <div id="main-content">
+
+        <div class="textarea-container">
+            <form action="" class="comment-form" id="form-post">
+                <textarea placeholder="¿Qué estás pensando ...?"></textarea>
+                <button type="submit">Comentar</button>
+            </form>
+        </div>
+
+    </div>
+
+    </div>
+    <div class="rightbar">
+        <div class="contacts">
+            <h4>Contactos</h4>
+            <ul>
+                <li><span class="foto-contacto">👤</span> Ana Gómez</li>
+                <li><span class="foto-contacto">👤</span> Carlos Ruiz</li>
+                <li><span class="foto-contacto">👤</span> Marta López</li>
+                <li><span class="foto-contacto">👤</span> Diego Torres</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>
