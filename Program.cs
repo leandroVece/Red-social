@@ -18,6 +18,7 @@ builder.Services.AddEndpointsApiExplorer();
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
+builder.WebHost.UseUrls("http://0.0.0.0:5047");
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
@@ -52,6 +53,16 @@ builder.Services.AddSingleton<IMongoClient>(sp =>
 // Registrar UserService como un servicio
 builder.Services.AddScoped<UserService>();
 builder.Services.AddScoped<PostServices>();
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll",
+        builder =>
+        {
+            builder.AllowAnyOrigin()
+                   .AllowAnyMethod()
+                   .AllowAnyHeader();
+        });
+});
 
 
 var app = builder.Build();
@@ -71,10 +82,11 @@ app.UseStaticFiles();  // Sirve archivos de wwwroot
 
 
 app.UseHttpsRedirection();
+app.UseCors("AllowAll");
 
 app.UseAuthorization();
 
 app.MapControllers();
 
-app.Run();
+app.Run("http://0.0.0.0:5047");
 

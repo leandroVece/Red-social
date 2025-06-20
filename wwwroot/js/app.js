@@ -45,17 +45,22 @@ if (!usuario) {
 
 formLogin.addEventListener("submit", async (event) => {
     event.preventDefault(); // Evita que el formulario se envíe de manera tradicional
+    try {
+        const formData = new FormData(formLogin);
+        const userData = {
+            nombre: formData.get("nombre"),
+            password: formData.get("password")
+        };
+        var res = await loginOrCreateUser(userData);
+        if (res) {
+            guardarEnLocalStorage("userLogin", res);
+            cerrarModal();
+            document.location.reload();
+        }
+    } catch (error) {
+        console.error(error);
+    }
 
-    const formData = new FormData(formLogin);
-    const userData = {
-        nombre: formData.get("nombre"),
-        password: formData.get("password")
-    };
-    var res = await loginOrCreateUser(userData);
-    console.log(res)
-    guardarEnLocalStorage("userLogin", res);
-    cerrarModal();
-    document.location.reload();
 });
 
 
