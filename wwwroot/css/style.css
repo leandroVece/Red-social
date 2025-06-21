@@ -185,3 +185,78 @@ li {
     padding: 0 7px;
     border-radius: 50%;
 }
+
+
+
+
+/* --- Responsive Design --- */
+
+/* Móviles: hasta 600px */
+@media (max-width: 600px) {
+    body {
+        flex-direction: column;
+    }
+
+    .sidebar,
+    .rightbar {
+        width: 100%;
+        box-shadow: none;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    #main-content {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .profile img {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    body {
+        flex-direction: row;
+    }
+
+    .sidebar,
+    .rightbar {
+        width: 25%;
+        padding: 15px;
+    }
+
+    #main-content {
+        max-width: 50%;
+        padding: 15px;
+    }
+
+    .profile img {
+        width: 90px;
+        height: 90px;
+    }
+}
+
+/* Escritorio: más de 1024px */
+@media (min-width: 1025px) {
+    body {
+        flex-direction: row;
+    }
+
+    .sidebar,
+    .rightbar {
+        width: 20%;
+        padding: 20px;
+    }
+
+    #main-content {
+        max-width: 60%;
+        padding: 20px;
+    }
+
+    .profile img {
+        width: 100px;
+        height: 100px;
+    }
+}

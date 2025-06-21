@@ -60,11 +60,7 @@ D:\2025\BD2\Social\bin\Debug\net9.0\Snappier.dll
 D:\2025\BD2\Social\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\2025\BD2\Social\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\2025\BD2\Social\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-D:\2025\BD2\Social\obj\Debug\net9.0\compressed\qto3lqndrv-hjiy9asg52.gz
-D:\2025\BD2\Social\obj\Debug\net9.0\compressed\5c6dh6q30n-3ssmp1wn0d.gz
-D:\2025\BD2\Social\obj\Debug\net9.0\compressed\n9socrwroz-rojbmiube4.gz
 D:\2025\BD2\Social\obj\Debug\net9.0\compressed\q6ddduk7w1-wo60n0lb5h.gz
-D:\2025\BD2\Social\obj\Debug\net9.0\compressed\8ecmis8t7w-llcqm8fp2b.gz
 D:\2025\BD2\Social\obj\Debug\net9.0\compressed\nzhvcij1g7-2q7mo7v7qs.gz
 D:\2025\BD2\Social\bin\Debug\net9.0\publicado\web.config
 D:\2025\BD2\Social\bin\Debug\net9.0\publicado\appsettings.Development.json
@@ -74,6 +70,10 @@ D:\2025\BD2\Social\bin\Debug\net9.0\publicado\Social.runtimeconfig.json
 D:\2025\BD2\Social\bin\Debug\net9.0\publicado\Social.staticwebassets.endpoints.json
 D:\2025\BD2\Social\obj\Debug\net9.0\Social.sourcelink.json
 D:\2025\BD2\Social\obj\Debug\net9.0\compressed\k53z69nefs-yowv5cfwi9.gz
-D:\2025\BD2\Social\obj\Debug\net9.0\compressed\ss2gp9juiy-js6yl33bvj.gz
-D:\2025\BD2\Social\obj\Debug\net9.0\compressed\h2y1ib4nbx-kulsu4x8tc.gz
 D:\2025\BD2\Social\obj\Debug\net9.0\compressed\hs2ihuwnbi-024tng2sv3.gz
+D:\2025\BD2\Social\obj\Debug\net9.0\compressed\5c6dh6q30n-2fbyepbwuu.gz
+D:\2025\BD2\Social\obj\Debug\net9.0\compressed\ss2gp9juiy-czo2oan3f9.gz
+D:\2025\BD2\Social\obj\Debug\net9.0\compressed\8ecmis8t7w-9e5zjnqr9c.gz
+D:\2025\BD2\Social\obj\Debug\net9.0\compressed\n9socrwroz-ocos6ehdh7.gz
+D:\2025\BD2\Social\obj\Debug\net9.0\compressed\qto3lqndrv-6lkf7of71d.gz
+D:\2025\BD2\Social\obj\Debug\net9.0\compressed\h2y1ib4nbx-vyq56f0vl2.gz
