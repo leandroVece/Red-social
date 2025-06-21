@@ -1,6 +1,7 @@
+import { API_BASE } from "./Auth.js";
 export async function comentar(idPost, body) {
     try {
-        const res = await fetch(`http://localhost:5047/api/post/${idPost}/comentarios`, {
+        const res = await fetch(`${API_BASE}/post/${idPost}/comentarios`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(body),
@@ -18,7 +19,7 @@ export async function comentar(idPost, body) {
 
 export async function eliminarComentario(idPost, body) {
     try {
-        const res = await fetch(`http://localhost:5047/api/post/${idPost}/comentarios`, {
+        const res = await fetch(`${API_BASE}/post/${idPost}/comentarios`, {
             method: "DELETE",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(body),

@@ -1,6 +1,9 @@
+import { API_BASE } from "./Auth.js";
+
+
 export async function crearPost(body) {
     try {
-        const res = await fetch("http://localhost:5047/api/post", {
+        const res = await fetch(`${API_BASE}/post`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(body),
@@ -20,7 +23,7 @@ export async function crearPost(body) {
 
 export async function eliminarPost(idPost) {
     try {
-        const res = await fetch(`http://localhost:5047/api/post/${idPost}`, {
+        const res = await fetch(`${API_BASE}/post/${idPost}`, {
             method: "DELETE"
         });
 
@@ -34,7 +37,7 @@ export async function eliminarPost(idPost) {
 
 export async function obtenerPosts() {
     try {
-        const res = await fetch("http://localhost:5047/api/post");
+        const res = await fetch(`${API_BASE}/post`);
         if (!res.ok) throw new Error("Error al obtener los posts");
 
         const data = await res.json();

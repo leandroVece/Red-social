@@ -51,13 +51,7 @@ D:\2025\BD2\Social\obj\Release\net9.0\Social.MvcApplicationPartsAssemblyInfo.cs
 D:\2025\BD2\Social\obj\Release\net9.0\Social.MvcApplicationPartsAssemblyInfo.cache
 D:\2025\BD2\Social\obj\Release\net9.0\Social.sourcelink.json
 D:\2025\BD2\Social\obj\Release\net9.0\scopedcss\bundle\Social.styles.css
-D:\2025\BD2\Social\obj\Release\net9.0\compressed\h2y1ib4nbx-kulsu4x8tc.gz
-D:\2025\BD2\Social\obj\Release\net9.0\compressed\5c6dh6q30n-3ssmp1wn0d.gz
 D:\2025\BD2\Social\obj\Release\net9.0\compressed\hs2ihuwnbi-024tng2sv3.gz
-D:\2025\BD2\Social\obj\Release\net9.0\compressed\qto3lqndrv-hjiy9asg52.gz
-D:\2025\BD2\Social\obj\Release\net9.0\compressed\ss2gp9juiy-js6yl33bvj.gz
-D:\2025\BD2\Social\obj\Release\net9.0\compressed\8ecmis8t7w-llcqm8fp2b.gz
-D:\2025\BD2\Social\obj\Release\net9.0\compressed\n9socrwroz-rojbmiube4.gz
 D:\2025\BD2\Social\obj\Release\net9.0\compressed\nzhvcij1g7-2q7mo7v7qs.gz
 D:\2025\BD2\Social\obj\Release\net9.0\compressed\q6ddduk7w1-wo60n0lb5h.gz
 D:\2025\BD2\Social\obj\Release\net9.0\staticwebassets.build.json
@@ -71,3 +65,9 @@ D:\2025\BD2\Social\obj\Release\net9.0\Social.pdb
 D:\2025\BD2\Social\obj\Release\net9.0\Social.genruntimeconfig.cache
 D:\2025\BD2\Social\obj\Release\net9.0\ref\Social.dll
 D:\2025\BD2\Social\obj\Release\net9.0\compressed\k53z69nefs-yowv5cfwi9.gz
+D:\2025\BD2\Social\obj\Release\net9.0\compressed\qto3lqndrv-6lkf7of71d.gz
+D:\2025\BD2\Social\obj\Release\net9.0\compressed\h2y1ib4nbx-st9lb3qdqp.gz
+D:\2025\BD2\Social\obj\Release\net9.0\compressed\5c6dh6q30n-2fbyepbwuu.gz
+D:\2025\BD2\Social\obj\Release\net9.0\compressed\ss2gp9juiy-czo2oan3f9.gz
+D:\2025\BD2\Social\obj\Release\net9.0\compressed\8ecmis8t7w-9e5zjnqr9c.gz
+D:\2025\BD2\Social\obj\Release\net9.0\compressed\n9socrwroz-ocos6ehdh7.gz

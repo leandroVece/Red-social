@@ -38,3 +38,7 @@ datos de prueva
      ('Ana Gómez', 'Analista de Datos', '1234Ana', 'avart-f.png'),
      ('Carlos Ruiz', 'Diseñador Grafico', '1234Carlos', 'avart-m.png'),
      ('Diego Torres', 'El diego', '1234Diego', 'avart-m.png');# Red-social
+
+
+comando para publicar
+dotnet publish -c Release -o ./publicado

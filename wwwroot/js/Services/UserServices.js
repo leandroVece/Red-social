@@ -1,6 +1,9 @@
+import { API_BASE } from "./Auth.js";
+
+
 export async function loginOrCreateUser(data) {
     try {
-        const response = await fetch('http://localhost:5047/api/user/login', {
+        const response = await fetch(`${API_BASE}/user/login`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(data)
@@ -22,7 +25,7 @@ export async function loginOrCreateUser(data) {
 
 export async function logoutUser(nombre) {
     try {
-        const response = await fetch('http://localhost:5047/api/user/logout', {
+        const response = await fetch(`${API_BASE}/user/logout`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ nombre })
